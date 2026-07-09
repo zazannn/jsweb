@@ -7,7 +7,6 @@ const Post = require('./models/Post')
 
 require("dotenv").config();
 
-// const mongoURL = "mongodb+srv://admin:admin@lesson12-javascriptsat.kwrc3ds.mongodb.net/"
 const mongoURL = process.env.MONGO_URL;
 
 app.use(session({
